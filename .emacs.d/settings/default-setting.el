@@ -14,6 +14,7 @@
     (call-interactively 'grep-find)))
 
 ;; magit
+(add-to-list 'load-path "~/.emacs.d/site-lisp/magit")
 (require 'magit)
 
 ;; mozc
@@ -52,7 +53,6 @@
 ;; incremental M-x
 (icomplete-mode 1)
 
-;; 折り返す
 (setq truncate-partial-width-windows nil)
 
 ;; no tool-bar etc.

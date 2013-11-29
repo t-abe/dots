@@ -1,0 +1,1 @@
+../../../emacs/site-lisp/magit/magit-classic-theme.el
